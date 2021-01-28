@@ -57,7 +57,7 @@ const App: () => React$Node = () => {
   }
 
   useEffect(()=>{
-    OneSignal.setAppId("28a31b80-89e7-4b06-a64c-e6cf7416d2b8");
+    OneSignal.setAppId("28a31b80-89e7-4b06-a64c-e6cf7416d2b8ok");
   },[]);
 
   useEffect(()=>{
