@@ -39,7 +39,7 @@ const Loading = () => <ActivityIndicator
 
 const App: () => React$Node = () => {
 
-  const urlSite = "https://www.essenceporvoce.com.br/inicio.html?dev=1";
+  const urlSite = "https://www.essenceporvoce.com.br/inicio.html";
 
   const webviewref = useRef(null);
   const [canGoBack,setCanGoBack] = useState(false);
